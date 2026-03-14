@@ -14,38 +14,6 @@ A modern weather dashboard built with React, JavaScript, and Chart.js. It includ
 - Weather details for humidity, wind, pressure, sunrise, and sunset
 - Weather map preview powered by OpenWeather tile layers
 
-## Getting Started
-
-1. Install dependencies:
-
-```bash
-npm install
-```
-
-2. Create your environment file:
-
-```bash
-cp .env.example .env
-```
-
-3. Add your OpenWeather API key to `.env`:
-
-```bash
-VITE_OPENWEATHER_API_KEY=your_key_here
-```
-
-4. Start the app:
-
-```bash
-npm run dev
-```
-
-5. Build for production:
-
-```bash
-npm run build
-```
-
 ## Notes
 
 - The app uses OpenWeather Geocoding, Current Weather, and One Call APIs.
