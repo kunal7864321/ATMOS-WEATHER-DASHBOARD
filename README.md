@@ -14,6 +14,38 @@ A modern weather dashboard built with React, JavaScript, and Chart.js. It includ
 - Weather details for humidity, wind, pressure, sunrise, and sunset
 - Weather map preview powered by OpenWeather tile layers
 
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kunal7864321/ATMOS-WEATHER-DASHBOARD.git
+   cd weather-dashboard
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file based on `.env.example`:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Get an API key from [OpenWeather](https://openweathermap.org/api) and add it to your `.env` file:
+   ```
+   VITE_OPENWEATHER_API_KEY=your_actual_api_key
+   ```
+
+5. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Deployment
+
+For deployment, set the environment variable `VITE_OPENWEATHER_API_KEY` in your hosting platform (e.g., Vercel, Netlify). Do not commit your `.env` file to the repository.
+
 ## Notes
 
 - The app uses OpenWeather Geocoding, Current Weather, and One Call APIs.
